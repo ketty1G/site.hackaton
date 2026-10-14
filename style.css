@@ -1,1 +1,148 @@
+* {
+            box-sizing: border-box;
+        }
 
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f7f9fc;
+            color: #303746;
+        }
+
+        header {
+            background-color: white;
+            padding: 22px 8%;
+            border-bottom: 1px solid #e2e7ef;
+        }
+
+        header h1 {
+            display: inline;
+            color: #3568d4;
+            font-size: 28px;
+        }
+
+        header p {
+            display: inline;
+            margin-left: 15px;
+            color: #687386;
+        }
+
+        #inicio {
+            text-align: center;
+            padding: 90px 20px;
+            background-color: #edf3ff;
+        }
+
+        #inicio h2 {
+            font-size: 42px;
+            color: #253b69;
+            margin-bottom: 20px;
+        }
+
+        #inicio p {
+            font-size: 18px;
+            color: #59667b;
+            max-width: 650px;
+            margin: 0 auto 30px;
+            line-height: 1.7;
+        }
+
+        .botao {
+            display: inline-block;
+            background-color: #3568d4;
+            color: white;
+            text-decoration: none;
+            padding: 14px 25px;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .botao:hover {
+            background-color: #254fa8;
+        }
+
+        section {
+            padding: 55px 8%;
+        }
+
+        section h2 {
+            color: #253b69;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            line-height: 1.8;
+            color: #59667b;
+            font-size: 16px;
+        }
+
+        .cartao {
+            background-color: white;
+            padding: 25px;
+            border: 1px solid #e2e7ef;
+            border-radius: 12px;
+            margin-bottom: 18px;
+        }
+
+        .cartao h3 {
+            color: #3568d4;
+            margin-top: 0;
+        }
+
+        #funcionalidades {
+            background-color: #edf3ff;
+        }
+
+        #publico {
+            background-color: white;
+        }
+
+        #contato {
+            text-align: center;
+            background-color: #253b69;
+            color: white;
+        }
+
+        #contato h2 {
+            color: white;
+        }
+
+        #contato p {
+            color: #e0e8f8;
+        }
+
+        footer {
+            text-align: center;
+            padding: 22px;
+            background-color: #192b4c;
+            color: white;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                text-align: center;
+            }
+
+            header h1 {
+                display: block;
+            }
+
+            header p {
+                display: block;
+                margin: 10px 0 0;
+            }
+
+            #inicio {
+                padding: 60px 20px;
+            }
+
+            #inicio h2 {
+                font-size: 32px;
+            }
+
+            section {
+                padding: 40px 20px;
+            }
+        }
